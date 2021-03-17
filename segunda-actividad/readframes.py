@@ -84,10 +84,10 @@ plt.xlabel('Tiempo (segundos)')
 plt.ylabel('Amplitud')
 
 #agregar informacion de las ondas para graficar
-plt.plot(time_gm, good_morning, label='Good morning')
-plt.plot(time_gm2, good_afternoon, label='Good afternoon', alpha=0.5)
-plt.plot(time_gm3, plane, label='Plane', alpha=0.5)
-plt.plot(time_gm4, anymore, label='Anymore', alpha=0.5)
+plt.plot(time_gm, ondaConvertida, label='Good morning')
+plt.plot(time_gm2, ondaConvertida2, label='Good afternoon', alpha=0.5)
+plt.plot(time_gm3, ondaConvertida3, label='Plane', alpha=0.5)
+plt.plot(time_gm4, ondaConvertida4, label='Anymore', alpha=0.5)
 
 plt.legend()
 plt.show()
